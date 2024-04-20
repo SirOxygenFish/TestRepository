@@ -1,0 +1,18 @@
+body{
+    font-family: cursive;
+    margin: 0;
+}
+.list{
+    background-color: wheat;
+    gap: 20px;
+    background-color: rgba(46, 46, 46, 0.397);
+    list-style: none;
+}
+.item{
+    color: white;
+    font-size: larger;
+    transition-duration: 0.3s;
+}
+.item:hover{
+    transform: translateY(-10px);
+}
